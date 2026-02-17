@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>MUSE | Modern Fashion Finds</title>
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600&family=Inter:wght@300;400;600&display=swap" rel="stylesheet">
+<style>
+body {
+    margin: 0;
+    font-family: 'Inter', sans-serif;
+    background-color: #f4f4f4;
+    color: #222;
+}
+
+header {
+    background: #111;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+header h1 {
+    font-family: 'Playfair Display', serif;
+    margin: 0;
+    font-size: 38px;
+    letter-spacing: 3px;
+}
+
+nav a {
+    color: #ccc;
+    margin: 0 15px;
+    text-decoration: none;
+    font-size: 14px;
+}
+
+.hero {
+    background: url('https://images.unsplash.com/photo-1529139574466-a303027c1d8b') center/cover no-repeat;
+    height: 70vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    text-align: center;
+}
+
+.hero h2 {
+    background: rgba(0,0,0,0.6);
+    padding: 20px 40px;
+    font-size: 32px;
+}
+
+.section {
+    padding: 60px 10%;
+}
+
+.section h3 {
+    font-size: 28px;
+    margin-bottom: 30px;
+}
+
+.products {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 30px;
+}
+
+.product-card {
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 8px 20px rgba(0,0,0,0.05);
+    text-align: center;
+}
+
+.product-card img {
+    width: 100%;
+    border-radius: 8px;
+}
+
+.product-card h4 {
+    margin: 15px 0 10px;
+}
+
+.product-card p {
+    font-size: 14px;
+    color: #555;
+}
+
+.btn {
+    display: inline-block;
+    padding: 10px 20px;
+    background: #111;
+    color: white;
+    text-decoration: none;
+    margin-top: 10px;
+    border-radius: 5px;
+}
+
+.btn:hover {
+    background: #444;
+}
+
+footer {
+    background: #111;
+    color: #aaa;
+    text-align: center;
+    padding: 30px;
+    font-size: 14px;
+}
+</style>
+</head>
+
+<body>
+
+<header>
+    <h1>MUSE</h1>
+    <nav>
+        <a href="#">Home</a>
+        <a href="#">Women</a>
+        <a href="#">Men</a>
+        <a href="#">Accessories</a>
+        <a href="#">Contact</a>
+    </nav>
+</header>
+
+<section class="hero">
+    <h2>Curated Fashion. Inspired Style.</h2>
+</section>
+
+<section class="section">
+    <h3>Trending This Week</h3>
+    <div class="products">
+
+        <div class="product-card">
+            <img src="https://images.unsplash.com/photo-1490481651871-ab68de25d43d">
+            <h4>Elegant Summer Dress</h4>
+            <p>Lightweight, stylish and perfect for any occasion.</p>
+            <a href="#" class="btn">Shop Now</a>
+        </div>
+
+        <div class="product-card">
+            <img src="https://images.unsplash.com/photo-1519741497674-611481863552">
+            <h4>Minimalist Watch</h4>
+            <p>Timeless design for modern fashion lovers.</p>
+            <a href="#" class="btn">Shop Now</a>
+        </div>
+
+        <div class="product-card">
+            <img src="https://images.unsplash.com/photo-1520975922071-4d5bde77e03a">
+            <h4>Classic Leather Jacket</h4>
+            <p>Elevate your outfit with bold street style.</p>
+            <a href="#" class="btn">Shop Now</a>
+        </div>
+
+    </div>
+</section>
+
+<section class="section">
+    <h3>About MUSE</h3>
+    <p>MUSE is your daily source of curated fashion inspiration. We carefully select trending outfits, accessories, and must-have pieces to help you elevate your wardrobe effortlessly.</p>
+    <p><strong>Disclosure:</strong> As an Amazon Associate, we earn from qualifying purchases.</p>
+</section>
+
+<footer>
+    © 2026 MUSE | All Rights Reserved
+</footer>
+
+</body>
+</html>
